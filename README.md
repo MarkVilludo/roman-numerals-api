@@ -23,3 +23,11 @@ Please create a [git bundle](https://git-scm.com/docs/git-bundle/) and send the 
 ```
 git bundle create <yourname>.bundle --all --branches
 ```
+
+
+# FOR JSON API
+For end points available please proceed to API Documentation
+```
+https://documenter.getpostman.com/view/849924/UV5TFevn#b0c6829d-8da5-49c8-82e0-1ef38f6d173a
+```
+

@@ -19,6 +19,8 @@ class RomanNumeralTest extends TestCase
     public function testConvertsIntegersToRomanNumerals(): void
     {
         // Test the basic conversions
+        //included 5000 - and above
+        //from  https://www.calculatorsoup.com/calculators/conversions/roman-numeral-converter.php
         $toTest = [
             'I' => 1,
             'IV' => 4,
@@ -33,6 +35,12 @@ class RomanNumeralTest extends TestCase
             'D' => 500,
             'CM' => 900,
             'M' => 1000,
+            '_V' => 5000,
+            '_X' => 10000,
+            '_L' => 50000,
+            '_C' => 100000,
+            '_D' => 500000,
+            '_M' => 1000000,
         ];
 
         foreach ($toTest as $returnValue => $integer) {
